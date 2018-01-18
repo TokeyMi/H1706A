@@ -10,5 +10,6 @@ public class Model implements ModelInfo {
     @Override
     public void getDataFromWhere(String[] strings, CallBackLisnter callBackLisnter) {
         HttpUntils.getDateByRe(callBackLisnter);
+
     }
 }
